@@ -80,7 +80,6 @@ Future<void> saveOnline(Map<String, dynamic> data) async {
         }
       }
     } catch (e) {
-      
       if (kDebugMode) {
         print('Error: ${response.body}');
       }
